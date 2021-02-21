@@ -1,17 +1,29 @@
 {
+  "homepage": "http://VIP2507.github.io/instragram",
   "name": "master",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.0",
+    "firebase": "^8.2.9",
+    "get-user-locale": "^1.4.0",
+    "material-ui-popup-state": "^1.7.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-expanding-textarea": "^2.3.1",
+    "react-instagram-embed": "^2.0.0",
+    "react-lazyload": "^3.2.0",
+    "react-linkify": "^1.0.0-alpha",
     "react-scripts": "4.0.2",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }

@@ -1,0 +1,207 @@
+.breakfix{ /* For fixing issue with long URLs exceeding width */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap; /* HP printers */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+    word-wrap: break-word; /* IE */
+    word-break: break-word;
+}
+
+.post {
+    background-image: linear-gradient(to bottom right,#232526,#414345);
+    width: 100%;
+    max-width: 500px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 70px;
+    border-radius: 25px;
+    box-shadow: 0 2px 2px 1px rgba(19, 22, 26, 0.5);
+}
+
+.post__image {
+    width: 100%;
+    object-fit: contain;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+
+.post__text {
+    font-weight: normal;
+    padding: 20px;
+    color: #f2f2f2;
+    letter-spacing: 1px;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-family: 'Reggae One', cursive;
+}
+
+.post__text > strong {
+    cursor: pointer;
+}
+
+.post__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.post__avatar {
+    margin: 10px;
+    float: left;
+    cursor: pointer;
+    flex: 0 auto;
+}
+
+.post__username  {
+    margin-top: 2px;
+    cursor: pointer;
+    flex: 1;
+    color: #f2f2f2;
+    font-family: 'Reggae One', cursive;
+}
+
+.post__commentBox {
+    display: flex;
+    margin-top: 10px;
+    transition: all 300ms ease-in;
+}
+.post__commentBox:hover{
+    transform: scale(1.02);
+}
+
+.post__comments{
+    padding: 20px;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    /* word-break: break-all; */
+}
+
+.post__comment{
+    margin-bottom: 10px;
+    flex: 1;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: lightblue;
+    border-bottom: 2px solid rgba(19, 22, 26, 0.1);
+    border-radius: 50px;
+    font-family: 'Handlee', cursive;
+}
+
+.post__comment > strong {
+    cursor: pointer;
+}
+
+input, textarea, .post__input{
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid rgba(19, 22, 26, 0.5);
+    background-color: #2f2f2f;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: #f2f2f2;
+    padding-bottom: 0px;
+}
+
+/* .post__input::placeholder{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ */
+
+.post__button{
+    flex: 0;
+    border: none;
+    color: #6082a3;
+    background-color: transparent;
+    border-top: 1px solid lightgray;
+    padding: 20px;
+}
+
+.post__thumbs{
+    width: 100%;
+    max-width: 1000px;
+}
+
+.post__thumb{
+    width: 100%;
+    cursor: pointer;
+    width: 100%; /* width of container */
+    height: 180px;; /* height of container */
+    overflow: hidden;
+    padding: 0px;
+}
+
+.post__thumb img {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+.comment_container{
+    display: flex;
+}
+
+.delete__Post, .delete__CommentButton{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    float: right;
+    cursor: pointer;
+    padding-right: 20px;
+    font-size: 12px;
+    /* color: red; */
+    text-align: right;
+    flex: 0 auto;
+}
+
+.comment__morevert{
+    flex: 0;
+    cursor: pointer;
+}
+
+.delete__CommentButton{
+    /* display: none; */
+    font-size: 10px;
+}
+
+.hidden__dropdown{
+    display: none;
+}
+
+/* .post__image{
+}
+
+
+.post__imgcontainer{
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    object-fit: none;
+}
+
+
+.post__thumbcontainer {
+    max-width: 500px;
+    width: 100%;
+} 
+*/
+
+@media (max-width: 768px) {
+
+    .post__thumbs{
+        width: 100%;
+        max-width: 500px;
+    }
+    
+    .post__thumb{
+        width: 100%;
+        cursor: pointer;
+        width: 100%; /* width of container */
+        height: 80px;; /* height of container */
+        overflow: hidden;
+        padding: 0px;
+    }
+  }

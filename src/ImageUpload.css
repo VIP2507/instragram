@@ -1,0 +1,37 @@
+.imageupload{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #2f2f2f;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 25%;
+}
+
+.imageupload input{
+    margin: 30px;
+    background-color: white;
+}
+
+.imageupload__progress{
+    width: 100%;
+}
+
+textarea{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    color: #f2f2f2;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+.input__file{
+    color: black;
+}
