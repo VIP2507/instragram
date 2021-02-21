@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/instragram/static/css/main.191fcd9e.chunk.css",
+    "main.js": "/instragram/static/js/main.6a2eb034.chunk.js",
+    "main.js.map": "/instragram/static/js/main.6a2eb034.chunk.js.map",
+    "runtime-main.js": "/instragram/static/js/runtime-main.0e4f6967.js",
+    "runtime-main.js.map": "/instragram/static/js/runtime-main.0e4f6967.js.map",
+    "static/js/2.eb4a757e.chunk.js": "/instragram/static/js/2.eb4a757e.chunk.js",
+    "static/js/2.eb4a757e.chunk.js.map": "/instragram/static/js/2.eb4a757e.chunk.js.map",
+    "static/js/3.19f08be5.chunk.js": "/instragram/static/js/3.19f08be5.chunk.js",
+    "static/js/3.19f08be5.chunk.js.map": "/instragram/static/js/3.19f08be5.chunk.js.map",
+    "index.html": "/instragram/index.html",
+    "static/css/main.191fcd9e.chunk.css.map": "/instragram/static/css/main.191fcd9e.chunk.css.map",
+    "static/js/2.eb4a757e.chunk.js.LICENSE.txt": "/instragram/static/js/2.eb4a757e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e4f6967.js",
+    "static/js/2.eb4a757e.chunk.js",
+    "static/css/main.191fcd9e.chunk.css",
+    "static/js/main.6a2eb034.chunk.js"
+  ]
+}
